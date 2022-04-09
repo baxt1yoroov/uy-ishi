@@ -1,0 +1,259 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+* {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.site-header {
+    padding-top: 44px;
+    padding-bottom: 43px;
+}
+
+.site-header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo:hover {
+    opacity: 0.7;
+}
+
+.sitenav__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.sitenav__link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+
+.site-main {
+    font-family: 'Fraunces ';
+    padding-top: 117px;
+    padding-bottom: 16px;
+    padding-left: 86px;
+    background-image: url(../img/Bitmap.svg);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.site-hero__content {
+    width: 493px;
+}
+
+.site-hero__title {
+    font-family: 'Fraunces';
+    margin-bottom: 56px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.site-hero__desc {
+    width: 444px;
+    font-family: 'Barlow';
+    margin-bottom: 56px;
+    margin-top: 0;
+    color: #FEFCF7;
+    opacity: 0, 8;
+}
+
+.site-hero-link {
+    display: inline-block;
+    padding: 15px 31px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 56px;
+    line-height: 25px;
+    color: #FEFCF7;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #0E8784;
+}
+
+
+
+.our-collection {
+    padding-top: 136px;
+    padding-bottom: 200px;
+}
+
+.our-collection__heading {
+    font-family:'Fraunces';
+    margin: 0;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 1.3;
+    text-align: center;
+    color: #83888F;
+    
+}
+
+.our-collection__list {
+    display: flex;
+    justify-content: center;    
+    margin: top -139px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.our-collection__item {
+    text-align: center;
+    max-width: 255px;
+}
+
+.our-collection__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-collection__img {
+    margin-bottom: 71px;
+}
+
+
+
+.our-collection__content-heading {
+    margin-bottom: 24px;
+    margin: 0;
+    font-family: 'Fraunces ';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.our-collection__content-desc {
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+.why-choose-us {
+    padding-top: 100px;
+    padding-bottom: 317px;
+    margin-bottom: 350px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.why-choose-us__header {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto;
+}
+.why-choose-us__heading {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+.why-choose-us__desc {
+    margin:0;
+    opacity: 0.8;
+}
+.why-choose-us__list {
+    margin-right: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    bottom: -151px;
+    padding: 0;
+    list-style: none;
+}
+.why-choose-us__item {
+    width: 350px;
+    text-align: center;
+    padding: 72px 48px 48px 48px;
+    background-color: #0E8784;
+    border-radius: 8px;
+}
+
+.why-choose-us__item:not(:last-child){
+    margin-right: 30px;
+}
+.why-choose-us__item-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+.why-choose-us__item-heading::before{
+    display: block;
+    width: 72px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 72px;
+
+    content: '';
+}
+.why-choose-us__item-desc {
+    margin: 0;
+}
+
+
+.why-choose-us__item-heading--shape{
+    background-image: url(../img/1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.why-choose-us__item-heading--benefits{
+    background-image: url(../img/2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.why-choose-us__item-heading--shiping{
+    background-image: url(../img/3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
