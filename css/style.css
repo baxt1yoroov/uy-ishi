@@ -3,15 +3,15 @@ html {
     box-sizing: border-box;
     height: 100%;
     scroll-behavior: smooth;
-  }
-  
-  *,
-  *::before,
-  *::after {
+}
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
-  
-  body {
+}
+
+body {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -20,14 +20,14 @@ html {
     overflow-x: hidden;
     font-family: "Arial", sans-serif;
     background-color: #fff;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%;
     height: auto;
-  }
-  
-  .visually-hidden {
+}
+
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -38,15 +38,15 @@ html {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }
-  
-  .container {
+}
+
+.container {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-  }
+}
 
 .site-header {
     padding-top: 44px;
@@ -232,7 +232,7 @@ html {
     margin-right: 20px;
     position: absolute;
     z-index: 1;
-    left: 50px;
+    left: 20px;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -298,9 +298,6 @@ html {
     background-position: center;
 }
 
-
-
-
 .how-it-works__headring {
     padding-bottom: 200px;
     font-family: 'Barlow';
@@ -336,7 +333,7 @@ html {
     font-size: 72px;
     line-height: 72px;
     color: #FDD6BA;
-    content: '0' counter(item);
+    content: '0' counter (item);
 }
 
 
@@ -404,7 +401,7 @@ html {
 }
 
 .site-list__item-links:hover {
-    color: lightgreen;
+    color: #FDD6BA;
 }
 
 .site-footer__logos {
@@ -414,6 +411,16 @@ html {
 
 .site-footer__logos-link {
     text-decoration: none;
+    color: white;
+}
+
+.site-footer__logos-link:hover {
+    color: #FDD6BA;
+    ;
+}
+
+.site-footer__logos-link:not(:last-child) {
+    margin-right: 24px;
 }
 
 .site-footer__logo {
